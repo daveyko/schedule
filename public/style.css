@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3{
+  margin: 10px 0px 10px 0px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.list-item{
+  height: 50vh;
+  width: 33%;
+  color: white;
+  font-weight: 900;
+  font-size: 21px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-button{
+  margin: 10px 0px 10px 0px;
+  z-index: 9;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
